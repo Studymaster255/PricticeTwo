@@ -30,5 +30,19 @@ Feature: Validate homepage
     And validate title "Categories - Clothing - Spree Demo Site"
     And validate number of iteams shows 14
     
-    #Scenario: validate shop by Brand all links
-    #will be done by pavan
+    Scenario: validate shop by Brand all links
+    When user click on Ruby
+    then validate title "Brand - Ruby - Spree Demo Site"
+    And validate nouber of iteams shows in ruby 1 
+    And user click on apache
+    And validate title "Brand - Apache - Spree Demo Site"
+    And validate number of iteams apache 1
+    And user click on spree
+    And validate title "Brand - Spree - Spree Demo Site"
+		And validate number if uteams soree 7
+		And user click on Rails
+		And validate title "Brand - Rails - Spree Demo Site"
+		And validate number of items Rails 7
+		   
+
+   
