@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		features= {"AllFeature"},
 		glue="StepDefination",
 		dryRun=false,
-		tags= "@Navigation",
+		tags= "@cart",
 		plugin= {"html:target/cucumber-reports/reports1.html",
 				"rerun:target/failedrerun.txt"
 				

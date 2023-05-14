@@ -11,3 +11,5 @@ Feature: Check that all the navigation buttons take you to their intended pages.
     Then user click on first product image
     And vaalidate title of product with captured on homepage
     And validate price with captured
+    
+  
