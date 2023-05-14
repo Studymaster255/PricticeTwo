@@ -22,7 +22,7 @@ public class Hook extends BaseClass {
 		}
 
 
-	@AfterStep
+	//@AfterStep
 	public void takeScreenshot(Scenario sc)
 	{
 		TakesScreenshot ts=(TakesScreenshot)driver;

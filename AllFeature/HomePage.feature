@@ -29,10 +29,10 @@ Feature: Validate homepage
 		And user click on clothing
     And validate title "Categories - Clothing - Spree Demo Site"
     And validate number of iteams shows 14
-    
+    @catagiry
     Scenario: validate shop by Brand all links
     When user click on Ruby
-    then validate title "Brand - Ruby - Spree Demo Site"
+    Then validate title "Brand - Ruby - Spree Demo Site"
     And validate nouber of iteams shows in ruby 1 
     And user click on apache
     And validate title "Brand - Apache - Spree Demo Site"
